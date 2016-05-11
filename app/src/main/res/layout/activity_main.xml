@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context="com.example.jorgeandres.peluchitospuntocom.MainActivity">
+
+
+    <ImageView
+        android:src="@drawable/mune"
+        android:layout_width="match_parent"
+        android:layout_height="123dp"
+        android:layout_weight="1"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+        <Button
+            android:layout_width="105dp"
+            android:layout_height="wrap_content"
+            android:text="@string/Guardar"
+            android:id="@+id/bGuardar"
+            android:onClick="guardar"/>
+        <Button
+            android:layout_width="105dp"
+            android:layout_height="wrap_content"
+            android:text="@string/Buscar"
+            android:id="@+id/bbuscar"
+            android:onClick="buscar"/>
+        <Button
+            android:layout_width="105dp"
+            android:layout_height="wrap_content"
+            android:text="@string/Eliminar"
+            android:id="@+id/beliminar"
+            android:onClick="eliminarpelu"/>
+        <Button
+            android:layout_width="105dp"
+            android:layout_height="wrap_content"
+            android:text="@string/Modificar"
+            android:id="@+id/bModificar"
+            android:onClick="modificar"/>
+        <Button
+            android:layout_width="105dp"
+            android:layout_height="wrap_content"
+            android:text="@string/Venta"
+            android:id="@+id/bVenta"
+            android:onClick="Venta"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+        <Button
+            android:layout_width="105dp"
+            android:layout_height="wrap_content"
+            android:text="@string/Consultar"
+            android:id="@+id/bConsultar"
+            android:onClick="consultar"/>
+        <Button
+            android:layout_width="105dp"
+            android:layout_height="wrap_content"
+            android:text="@string/ganancias"
+            android:id="@+id/bLimpiar"
+            android:onClick="ganancias"/>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
+</ScrollView>

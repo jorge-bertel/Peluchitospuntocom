@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Peluchito.com</string>
+    <string name="Nombre">Nombre Peluche: </string>
+    <string name="Numero">N° de Peluche:</string>
+    <string name="Cantidad">Cantidad de peluche:</string>
+    <string name="Precio">Precio de peluche:</string>
+    <string name="Guardar">Agregar Peluche</string>
+    <string name="Buscar">Buscar Peluchito</string>
+    <string name="Eliminar">Eliminar Peluchito</string>
+    <string name="Eliminar1">Eliminar Ventas</string>
+    <string name="Modificar">Modificar Peluchito</string>
+    <string name="Advertencia">Modificando</string>
+    <string name="Venta">Vender Peluchito</string>
+    <string name="Preciouni">Precio Unitario</string>
+    <string name="PrecioTotal">Precio Total</string>
+    <string name="ganancias">Ganancia Totales</string>
+    <string name="Consultar">Mostrar Inventario</string>
+    <string name="Regresar">Volver</string>
+    <string name="Regresar1">Volver</string>
+    <string name="ConsultarPeluche">Mostrar Peluche</string>
+    <string name="Inventario_peluche">El inventario de peluchitos.com es:</string>
+</resources>
